@@ -1,7 +1,8 @@
 import time
-import requests , os
+import cfscrape , os
 import pyfiglet
 
+requests = cfscrape.create_scraper()
 api = "PUT YOUR API HERE"
 dm_status = "ON" 
 mydata = { "api" : api,
